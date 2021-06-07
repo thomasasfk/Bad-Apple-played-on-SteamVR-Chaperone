@@ -5,6 +5,7 @@ BA_URL=https://youtu.be/FtutLA63Cp8
 FRAMES_DIRECTORY=ba
 FRAME_PREFIX=badapple
 
+py -m pip install opencv-python Pillow youtube-dl
 py -m youtube_dl -f 394 $BA_URL -o bad_apple_original.mp4
 ffmpeg -i bad_apple_original.mp4 -filter:v fps=$FPS bad_apple_new.mp4
 
