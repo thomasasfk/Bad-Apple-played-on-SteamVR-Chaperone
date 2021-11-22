@@ -1,4 +1,4 @@
-# Bad Apple but it's SteamVR Chaperone
+# Bad Apple played on SteamVR Chaperone
 
 https://www.youtube.com/watch?v=pNooFPIjf80
 
